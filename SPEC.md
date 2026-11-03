@@ -84,7 +84,7 @@ Write a short result and link only evidence that exists. A passing browser check
 
 | Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
 | --------- | --------------- | --------------- | ----------------------------------------- |
-| BRAND-001 | Not changed yet | Not created yet | Not run yet; learner observations pending |
+| BRAND-001 | public/brand.json | feature/BRAND-001 | npm run check passed; Null Variable identity rendered on studio and storefront |
 
 ## Later
 
