@@ -92,46 +92,36 @@ No follow-up is selected. After keeping `BRAND-001`, choose one next cycle: perh
 
 ## Plan
 
+### Reader and goal
+- **Reader:** A recruiter or hiring manager for applied AI/software engineering roles, including AI Solutions Engineer and Forward Deployed AI Engineer roles from my career research.
+- **Goal:** Help the reader quickly inspect how I build software, organize technical work, and connect projects to user needs. My research found that these roles involve prototyping, iterative problem-solving, and translating workflows into useful software.
+- **Career research:** [Role research](https://github.com/nsmadda11-alt/White-T-Shirt/blob/feature/career-research/research.md). This research already counts as portfolio research; I will not make a second comparison report.
 
-### Audience and brand
-- **Audience:** Developers and minimalists looking for clean, straightforward apparel without marketing fluff.
-- **Need and promise:** Shoppers need clear fit information and a streamlined purchasing experience before ordering. We will help them compare sizes easily and understand what their demo order includes.
-- **Archetype and voice:** Technical, Minimalist; precise, transparent, modern.
-- **Visual direction:** [styleguide.html](https://github.com/nsmadda11-alt/White-T-Shirt/blob/feature/career-research/public/styleguide.html) — Monochrome UI elements and clean typography adapted from developer design systems to maintain a distraction-free aesthetic.
-- **Honest persuasion:** Standard garment measurements and clear frontend architecture. Limits: No claims of miracle fabrics, proprietary cotton tech, or unverified comfort metrics.
+### Two portfolio page approaches
+Both approaches will use accurate project claims and link to the same evidence.
 
-### Two approaches to the fit question
-Both approaches use the same white T-shirt, product facts, price, size choices, and simulated checkout.
+- **A — Project-first (preferred):** Brief introduction, then project stories with live pages, repositories, and documentation. Place résumé, LinkedIn, and GitHub links in clear navigation. This gives a technical recruiter direct access to evidence.
+- **B — Résumé-first:** Open with a résumé-style summary, then list projects and links. This is familiar but makes the reader reach the project evidence later.
+- **Decision and check:** I prefer A because the roles I researched emphasize building and deploying practical solutions. A peer will try to find both project stories, my contribution, and the profile/résumé links. I will record whether they can find them and revise the page if needed. This choice still needs peer review.
 
-- **A — Size guide first:** Show the product, price, size guide, and size choices together.
-- **B — Fit explanation first:** Show a short fit explanation, then the same product and shopping controls.
-- **Comparison:** Ask a peer to find the fit information, choose a size, review the order, and complete the demo checkout in each version. Record where they hesitate or ask questions. Keep the offer and wording steady; note that the order of information changes.
+### Checkable portfolio stories
+1. **Individual T-shirt project:** As a recruiter, I want to find the live T-shirt project and its source repository so I can inspect the result and code. **Check:** Open the [published site](https://nsmadda11-alt.github.io/White-T-Shirt/) and [repository](https://github.com/nsmadda11-alt/White-T-Shirt); confirm both links work and the repository explains the project.
+2. **Shared group project:** As a recruiter, I want to identify my contribution to the team project so I can distinguish my work from the team's. **Check:** Open the [shared repository](https://github.com/thomasvivas/collaborative-book-is117), find `noah_madda.md`, and follow [PR #7](https://github.com/thomasvivas/collaborative-book-is117/pull/7), which records my update.
+3. **Career fit:** As a recruiter, I want to see why these projects relate to applied AI/software engineering roles so I can assess the connection to my goals. **Check:** Find the linked career research and compare its role requirements with the project descriptions; do not imply the T-shirt site itself uses AI.
+4. **Professional links:** As a recruiter, I want to find my résumé, LinkedIn, and GitHub profile so I can review my background and contact/profile information. **Check:** Open each link below from the portfolio page.
 
-### User stories, features, and checks
+### Profiles and project repositories
+- **LinkedIn:** [Noel Madda](https://www.linkedin.com/in/noel-madda-b7a0b0450/). Plan: align the headline and project links with my applied AI/software engineering interests.
+- **GitHub:** [nsmadda11-alt](https://github.com/nsmadda11-alt). Plan: keep the profile description and pinned repositories focused on relevant project evidence.
+- **Résumé:** [Noel Madda résumé](https://docs.google.com/document/d/1-78iNbw0_vsE9NScqhO4nhWfwky973-XLI-u1I8vD4Q/edit?tab=t.0). Plan: link it from the portfolio and keep project claims consistent with repository evidence.
+- **Individual T-shirt repository:** [White-T-Shirt](https://github.com/nsmadda11-alt/White-T-Shirt); [published site](https://nsmadda11-alt.github.io/White-T-Shirt/).
+- **Shared group repository:** [collaborative-book-is117](https://github.com/thomasvivas/collaborative-book-is117). Its README lists Thomas Vivas (`@thomasvivas`), Sebastian Hernandez (`@DecearingApple`), Noah Madda (`@nsmadda11-alt`), and Collin Castillo (`@cic7-collab`). My documented contribution is `noah_madda.md`, merged in [PR #7](https://github.com/thomasvivas/collaborative-book-is117/pull/7).
+- **Portfolio repository/site:** Still to add; I have not identified a separate portfolio project repository or published portfolio site.
 
-Ask your classmate to choose one story from your plan and explain how they would check that it works.
+### Peer review and submission evidence
+- **Review request:** Ask a classmate to find both project stories, identify my contribution, and locate my profile/résumé links. Record the request, feedback, my decision and reasoning, any linked commit/PR, and verification in a GitHub issue. Ask the reviewer to retry accepted changes before resolving the issue.
+- **Status:** Plan review and feedback issue are still pending. If I cannot get peer feedback, I will document the review request and contact the instructor promptly.
+- **Current project links:** [T-shirt repository](https://github.com/nsmadda11-alt/White-T-Shirt) · [T-shirt documentation record](https://github.com/nsmadda11-alt/White-T-Shirt/blob/feature/BRAND-001/SPEC.md#plan) · [published T-shirt site](https://nsmadda11-alt.github.io/White-T-Shirt/) · [T-shirt issues](https://github.com/nsmadda11-alt/White-T-Shirt/issues) · [shared group repository](https://github.com/thomasvivas/collaborative-book-is117).
+- **Open questions:** Where is the separate portfolio repository/site? Which GitHub issue will hold peer feedback and response? The linked group repository describes a collaborative book, while the assignment calls for a group business project; confirm with the instructor that this is the intended group project.
 
-1. **As a shopper unsure about fit, I want to find the size guide so I can make an informed size choice.**  
-   Feature: Size guide linked to the product.  
-   Check: A peer can find it, use its listed measurements, and select a size. The guide must describe only information we can support.
-
-2. **As a shopper, I want to choose a size and quantity so I can build my demo order.**  
-   Feature: Size selector and quantity control (`shop.js`).  
-   Check: Changing either control updates the order summary correctly.
-
-3. **As a shopper, I want to review the quantity and total so I know what the demo order includes.**  
-   Feature: Order summary with item, size, quantity, and total.  
-   Check: With a size selected and quantity 2, the summary shows that size and twice the unit price.
-
-4. **As a shopper, I want to submit a simulated order so I can see what checkout would do.**  
-   Feature: Demo checkout with required fields and clear errors.  
-   Check: Missing required information shows an error. Valid information produces a confirmation. No real payment is taken.
-
-5. **As a shopper, I want my demo order saved so I can confirm it was recorded.**  
-   Feature: Working SQLite backend.  
-   Check: Complete a valid simulated order, confirm it appears in SQLite, close and reopen the app, and confirm the record remains.
-
-### Scope and status
-- **Included:** One plain white T-shirt, Null Variable developer branding, the two fit-information approaches, size and quantity selection, order summary, simulated checkout, and SQLite order storage.
-- **Not claimed:** Real payment, real order fulfillment, or unsupported claims about fit, materials, delivery, or popularity.
-- **Status:** Planned; checks to be run during implementation.
+**Scope and accuracy:** The T-shirt repository describes a size selector and temporary demo bag. This Plan does not claim real checkout, order storage, payment, AI functionality, or unsupported product facts. This checkpoint records plans; feature and peer-review evidence must be linked only after it exists.
