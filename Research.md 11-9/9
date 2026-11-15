@@ -1,0 +1,19 @@
+=== REPOSITORY & DOCUMENTATION URLS ===
+GitHub Repository URL: https://github.com/nsmadda11-alt/White-T-Shirt
+Documentation File URL: https://github.com/nsmadda11-alt/White-T-Shirt/blob/feature/career-research/research.md
+Published Documentation Site URL: https://nsmadda11-alt.github.io/White-T-Shirt/
+Issues & Peer Review URL: https://github.com/nsmadda11-alt/White-T-Shirt/issues
+
+=== PRODUCT POSITIONING & WEBSITE COMMENTARY ===
+Product Focus: Plain White T-Shirt. 
+My project centers on a minimalist, developer-focused plain white T-shirt e-commerce site. The choice to focus exclusively on a simple white t-shirt is deliberate: it strips away the noise of complex apparel variations, flashy graphics, and unsupported fabric quality claims. This allows the core architecture of the website—structured via modular HTML, clean CSS (`styles.css`), and dynamic JavaScript (`styleguide.js`)—to take center stage. 
+
+Commentary on the Site Architecture:
+- **Design System & Styleguide:** The repository implements a unified style guide (`styleguide.html` and `styleguide.js`) to maintain consistent typography, color palettes (emphasizing clean monochrome tones matching the white t-shirt aesthetic), and component layouts.
+- **Frontend Interfacing:** The site utilizes vanilla JavaScript and structured DOM manipulation to handle user interaction dynamically without relying on bloated frameworks, keeping the codebase lightweight, fast, and easy to audit.
+- **Minimalist Branding:** By anchoring the store around a single, high-clarity item (the white t-shirt), the user experience remains focused entirely on frictionless navigation, clean product presentation, and robust frontend design principles.
+
+=== REFLECTION & COURSE CONNECTIONS ===
+Building this white t-shirt website directly bridges foundational concepts from IS117. Version control via Git and GitHub allowed me to iterate safely using feature branches (`feature/career-research`) and maintain clean commit histories. Furthermore, structuring modular UI components reflects real-world frontend development standards where separation of concerns between structure (HTML), presentation (CSS), and behavior (JS) is critical for maintainability.
+
+Throughout this project, AI assistance was used to help structure code documentation, organize design patterns, and refine technical explanations.
