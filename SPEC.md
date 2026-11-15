@@ -89,3 +89,46 @@ Write a short result and link only evidence that exists. A passing browser check
 ## Later
 
 No follow-up is selected. After keeping `BRAND-001`, choose one next cycle: perhaps a brand story, a supported fit guide, or richer demo-bag behavior. Agree its scope and add one new spec ID at that time.
+
+## Plan
+
+
+### Audience and brand
+- **Audience:** Developers and minimalists looking for clean, straightforward apparel without marketing fluff.
+- **Need and promise:** Shoppers need clear fit information and a streamlined purchasing experience before ordering. We will help them compare sizes easily and understand what their demo order includes.
+- **Archetype and voice:** Technical, Minimalist; precise, transparent, modern.
+- **Visual direction:** [styleguide.html](https://github.com/nsmadda11-alt/White-T-Shirt/blob/feature/career-research/public/styleguide.html) — Monochrome UI elements and clean typography adapted from developer design systems to maintain a distraction-free aesthetic.
+- **Honest persuasion:** Standard garment measurements and clear frontend architecture. Limits: No claims of miracle fabrics, proprietary cotton tech, or unverified comfort metrics.
+
+### Two approaches to the fit question
+Both approaches use the same white T-shirt, product facts, price, size choices, and simulated checkout.
+
+- **A — Size guide first:** Show the product, price, size guide, and size choices together.
+- **B — Fit explanation first:** Show a short fit explanation, then the same product and shopping controls.
+- **Comparison:** Ask a peer to find the fit information, choose a size, review the order, and complete the demo checkout in each version. Record where they hesitate or ask questions. Keep the offer and wording steady; note that the order of information changes.
+
+### User stories, features, and checks
+1. **As a shopper unsure about fit, I want to find the size guide so I can make an informed size choice.**  
+   Feature: Size guide linked to the product.  
+   Check: A peer can find it, use its listed measurements, and select a size. The guide must describe only information we can support.
+
+2. **As a shopper, I want to choose a size and quantity so I can build my demo order.**  
+   Feature: Size selector and quantity control (`shop.js`).  
+   Check: Changing either control updates the order summary correctly.
+
+3. **As a shopper, I want to review the quantity and total so I know what the demo order includes.**  
+   Feature: Order summary with item, size, quantity, and total.  
+   Check: With a size selected and quantity 2, the summary shows that size and twice the unit price.
+
+4. **As a shopper, I want to submit a simulated order so I can see what checkout would do.**  
+   Feature: Demo checkout with required fields and clear errors.  
+   Check: Missing required information shows an error. Valid information produces a confirmation. No real payment is taken.
+
+5. **As a shopper, I want my demo order saved so I can confirm it was recorded.**  
+   Feature: Working SQLite backend.  
+   Check: Complete a valid simulated order, confirm it appears in SQLite, close and reopen the app, and confirm the record remains.
+
+### Scope and status
+- **Included:** One plain white T-shirt, Null Variable developer branding, the two fit-information approaches, size and quantity selection, order summary, simulated checkout, and SQLite order storage.
+- **Not claimed:** Real payment, real order fulfillment, or unsupported claims about fit, materials, delivery, or popularity.
+- **Status:** Planned; checks to be run during implementation.
