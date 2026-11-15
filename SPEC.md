@@ -108,6 +108,9 @@ Both approaches use the same white T-shirt, product facts, price, size choices, 
 - **Comparison:** Ask a peer to find the fit information, choose a size, review the order, and complete the demo checkout in each version. Record where they hesitate or ask questions. Keep the offer and wording steady; note that the order of information changes.
 
 ### User stories, features, and checks
+
+Ask your classmate to choose one story from your plan and explain how they would check that it works.
+
 1. **As a shopper unsure about fit, I want to find the size guide so I can make an informed size choice.**  
    Feature: Size guide linked to the product.  
    Check: A peer can find it, use its listed measurements, and select a size. The guide must describe only information we can support.
